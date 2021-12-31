@@ -8,22 +8,38 @@
 
     <LinearLayout
         android:orientation="vertical"
-        android:background="@drawable/bg"
-        android:weightSum="10"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <RelativeLayout
+            android:layout_weight="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/textGrid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/Red"
+                android:text="Skema Assy Shop"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
         <GridLayout
             android:id="@+id/mainGrid"
-            android:columnCount="1"
-            android:rowCount="8"
-            android:alignmentMode="alignMargins"
-            android:columnOrderPreserved="false"
-            android:layout_weight="8"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:padding="14dp"
-            app:srcCompat="@drawable/bg1">
+            android:layout_weight="2"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:padding="14dp">
+
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -33,28 +49,24 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="256dp"
-                android:layout_row="1"
                 android:layout_column="0"
                 android:src="@drawable/Skema17" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="256dp"
-                android:layout_row="2"
                 android:layout_column="0"
                 android:src="@drawable/Skema18" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="256dp"
-                android:layout_row="3"
                 android:layout_column="0"
                 android:src="@drawable/Skema19" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="256dp"
-                android:layout_row="4"
                 android:layout_column="0"
                 android:src="@drawable/Skema20" />
 
