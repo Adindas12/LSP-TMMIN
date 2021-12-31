@@ -14,7 +14,7 @@
         android:layout_height="match_parent">
 
         <RelativeLayout
-            android:layout_weight="1"
+            android:layout_weight="0.5"
             android:layout_width="match_parent"
             android:layout_height="0dp">
 
@@ -23,7 +23,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:background="#0F5878"
+                android:background="@color/Red"
                 android:text="Lembaga Sertifikasi Profesi PT.TMMIN"
                 android:textAlignment="center"
                 android:textColor="@color/white"
@@ -77,7 +77,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Profile LSP"
-                        app:backgroundTint="#254965" />
+                        app:backgroundTint="@color/Red" />
 
 
                 </LinearLayout>
@@ -114,7 +114,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Skema Sertifikasi"
-                        app:backgroundTint="#254965" />
+                        app:backgroundTint="@color/Red" />
 
                 </LinearLayout>
 
@@ -153,7 +153,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Asesor"
-                        app:backgroundTint="#254965" />
+                        app:backgroundTint="@color/Red" />
 
                 </LinearLayout>
 
@@ -189,7 +189,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Flow Sertifikasi"
-                        app:backgroundTint="#254965" />
+                        app:backgroundTint="@color/Red" />
 
                 </LinearLayout>
 
@@ -228,7 +228,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Hasil Sertifikasi"
-                        app:backgroundTint="#254965" />
+                        app:backgroundTint="@color/Red" />
 
                 </LinearLayout>
 
@@ -265,7 +265,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Exit"
-                        app:backgroundTint="#254965" />
+                        app:backgroundTint="@color/Red" />
 
                 </LinearLayout>
 
