@@ -24,7 +24,7 @@ public class MenuUtama extends AppCompatActivity {
         button5 = (Button) findViewById(R.id.button5);
         button6 = (Button) findViewById(R.id.button6);
 
-        button1.setOnClickListener(new View.OnClickListener() {
+        button1.setOnClickListener(new view.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -34,43 +34,43 @@ public class MenuUtama extends AppCompatActivity {
             }
         });
 
-        button2.setOnClickListener(new View.OnClickListener() {
+        button2.setOnClickListener(new view.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MenuUtama.this, WisataEdukasi.class);
+                Intent intent = new Intent(MenuUtama.this, SkemaSertifikasi.class);
                 finish();
                 startActivity(intent);
             }
         });
-        button3.setOnClickListener(new View.OnClickListener() {
+        button3.setOnClickListener(new view.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MenuUtama.this, WisataReligi.class);
+                Intent intent = new Intent(MenuUtama.this, Asesor.class);
                 finish();
                 startActivity(intent);
             }
         });
-        button4.setOnClickListener(new View.OnClickListener() {
+        button4.setOnClickListener(new view.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MenuUtama.this, WisataKuliner.class);
+                Intent intent = new Intent(MenuUtama.this, FlowSertifikasi.class);
                 finish();
                 startActivity(intent);
             }
         });
-        button5.setOnClickListener(new View.OnClickListener() {
+        button5.setOnClickListener(new view.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MenuUtama.this, About.class);
+                Intent intent = new Intent(MenuUtama.this, HasilSertifikasi.class);
                 finish();
                 startActivity(intent);
             }
         });
-        button6.setOnClickListener(new View.OnClickListener() {
+        button6.setOnClickListener(new view.OnClickListener() {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 moveTaskToBack(true);
