@@ -3,14 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@null"
+    tools:ignore="ContentDescription,HardcodedText"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:orientation="vertical"
         android:background="@color/white"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <RelativeLayout
             android:layout_weight="0.1"
@@ -26,8 +28,7 @@
                 android:text="Skema Logistic Shop"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="35dp"
-                tools:ignore="HardcodedText" />
+                android:textSize="35sp" />
 
         </RelativeLayout>
 
@@ -42,33 +43,28 @@
 
 
             <ImageView
-                android:layout_width="wrap_content"
                 android:layout_height="256dp"
-                android:src="@drawable/Skema21" />
+                android:src="@drawable/Skema21"/>
 
             <ImageView
-                android:layout_width="wrap_content"
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Skema22" />
+                android:src="@drawable/Skema22"/>
 
             <ImageView
-                android:layout_width="wrap_content"
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Skema23" />
+                android:src="@drawable/Skema23"/>
 
             <ImageView
-                android:layout_width="wrap_content"
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Skema24" />
+                android:src="@drawable/Skema24"/>
 
             <ImageView
-                android:layout_width="wrap_content"
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Skema25" />
+                android:src="@drawable/Skema25"/>
 
         </GridLayout>
 
