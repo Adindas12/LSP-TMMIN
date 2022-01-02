@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="IntentFilterExportedReceiver,AllowBackup"
     package="com.adindas.game.lsptmmin">
 
     <application
@@ -9,6 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LSPTMMIN">
+        <activity android:name=".ProfileLSP" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Visi_Misi" />
+        <activity android:name=".SkemaSertifikasi" />
+        <activity android:name=".SkemaPress" />
+        <activity android:name=".SkemaWelding" />
+        <activity android:name=".SkemaToso" />
+        <activity android:name=".SkemaAssy" />
+        <activity android:name=".SkemaLogistic"  />
+        <activity android:name=".SkemaMaintenance" />
+        <activity android:name=".Asesor" />
+        <activity android:name=".FlowSertifikasi" />
+        <activity android:name=".HasilSertifikasi"/>
         <activity
             android:name=".MenuUtama"
             android:exported="false" />
@@ -22,5 +37,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
