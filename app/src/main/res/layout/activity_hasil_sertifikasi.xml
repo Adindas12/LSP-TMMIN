@@ -45,102 +45,102 @@
 
             <ImageView
                 android:layout_height="256dp"
-                android:src="@drawable/Hasil1" />
+                android:src="@drawable/hasil1" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil2" />
+                android:src="@drawable/hasil2" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil3" />
+                android:src="@drawable/hasil3" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil4" />
+                android:src="@drawable/hasil4" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil5" />
+                android:src="@drawable/hasil5" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil6" />
+                android:src="@drawable/hasil6" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil7" />
+                android:src="@drawable/hasil7" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil8" />
+                android:src="@drawable/hasil8" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil9" />
+                android:src="@drawable/hasil9" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil10" />
+                android:src="@drawable/hasil10" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil11" />
+                android:src="@drawable/hasil11" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil12" />
+                android:src="@drawable/hasil12" />
 
             <ImageView
                android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil13" />
+                android:src="@drawable/hasil13" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil14" />
+                android:src="@drawable/hasil14" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil15" />
+                android:src="@drawable/hasil15" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil16" />
+                android:src="@drawable/hasil16" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil17" />
+                android:src="@drawable/hasil17" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil18" />
+                android:src="@drawable/hasil18" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil19" />
+                android:src="@drawable/hasil19" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Hasil20" />
+                android:src="@drawable/hasil20" />
 
 
         </GridLayout>
