@@ -1,13 +1,11 @@
 package com.adindas.game.lsptmmin;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MenuUtama extends AppCompatActivity {
     Button button1, button2, button3, button4, button5, button6;

@@ -27,32 +27,32 @@
 
             <ImageView
                 android:layout_height="256dp"
-                android:src="@drawable/AboutUs1" />
+                android:src="@drawable/aboutus1" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/AboutUs2" />
+                android:src="@drawable/aboutus2" />
 
             <ImageView
                android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/AboutUs3" />
+                android:src="@drawable/aboutus3" />
 
             <ImageView
                android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/AboutUs4" />
+                android:src="@drawable/aboutus4" />
 
             <ImageView
                android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/AboutUs5" />
+                android:src="@drawable/aboutus5" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/AboutUs6" />
+                android:src="@drawable/aboutus6" />
 
         </GridLayout>
 

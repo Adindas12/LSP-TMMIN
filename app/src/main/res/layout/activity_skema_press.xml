@@ -44,27 +44,27 @@
 
             <ImageView
                 android:layout_height="256dp"
-                android:src="@drawable/Skema1" />
+                android:src="@drawable/skema1" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Skema2" />
+                android:src="@drawable/skema2" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Skema3" />
+                android:src="@drawable/skema3" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Skema4" />
+                android:src="@drawable/skema4" />
 
             <ImageView
                 android:layout_height="256dp"
                 android:layout_column="0"
-                android:src="@drawable/Skema5" />
+                android:src="@drawable/skema5" />
         </GridLayout>
 
     </LinearLayout>
