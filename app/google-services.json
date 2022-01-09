@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "657969965872",
+    "project_id": "database-29961",
+    "storage_bucket": "database-29961.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657969965872:android:985e3d3ab05c38311876f5",
+        "android_client_info": {
+          "package_name": "com.adindas.game.lsptmmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657969965872-duldi01r11fgnl0gbtc08uemdh4m58mo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adindas.game.lsptmmin",
+            "certificate_hash": "b7e7c2bea19eb8991f42042812fbed02954b0c69"
+          }
+        },
+        {
+          "client_id": "657969965872-i6vap8u9blf577f7lfmah0e1vkplmd3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXUwqGFiC9MyMakaCmxN-nBqoAiMPF2Gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657969965872-i6vap8u9blf577f7lfmah0e1vkplmd3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
