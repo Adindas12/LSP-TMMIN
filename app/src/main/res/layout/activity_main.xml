@@ -8,7 +8,7 @@
     android:contentDescription="@null"
     android:gravity="center"
     android:orientation="vertical"
-    tools:ignore="ContentDescription,Autofill,HardcodedText,TextFields"
+    tools:ignore="ContentDescription,Autofill,HardcodedText,TextFields,UseSwitchCompatOrMaterialXml"
     tools:context=".MainActivity">
 
 
@@ -23,6 +23,7 @@
 
     <EditText
         android:id="@+id/username"
+        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
@@ -35,6 +36,7 @@
 
     <EditText
         android:id="@+id/password"
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/username"
@@ -54,7 +56,7 @@
         android:gravity="end"
         android:text="Remember me"
         android:layout_marginTop="10dp"
-        android:layout_below="@id/password"/>
+        android:layout_below="@id/password" />
 
     <Button
         android:id="@+id/login"
