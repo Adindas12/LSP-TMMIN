@@ -73,7 +73,7 @@ public class MenuUtama extends AppCompatActivity {
                 // TODO Auto-generated method stub
                 moveTaskToBack(true);
 
-                //membuat method tombol keluar dari aplikasi
+                //memb  uat method tombol keluar dari aplikasi
 
             }
         });

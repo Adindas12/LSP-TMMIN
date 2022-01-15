@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,11 +8,10 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:ignore="ContentDescription,Autofill,HardcodedText,TextFields,UseSwitchCompatOrMaterialXml"
-    tools:context=".MainActivity">
-
+    tools:context=".RegisterActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageLogo"
         android:layout_width="wrap_content"
         android:layout_height="150dp"
         android:layout_marginStart="134dp"
@@ -22,10 +20,10 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/EmailLogin"
+        android:id="@+id/EmailRegist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
+        android:layout_below="@+id/imageLogo"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
@@ -35,65 +33,54 @@
         android:padding="10dp" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/PassRegist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/EmailLogin"
+        android:layout_below="@+id/EmailRegist"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
-        android:background="@drawable/input_text"
+        android:background="@drawable/input_text2"
         android:hint="Password"
         android:inputType="textPassword"
         android:padding="10dp" />
 
-    <Switch
-        android:id="@+id/active"
+    <EditText
+        android:id="@+id/PassRegist2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/password"
+        android:layout_below="@+id/PassRegist"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
-        android:gravity="end"
-        android:text="Remember me" />
-
-    <TextView
-        android:id="@+id/forgotPass"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/active"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
-        android:textColor="@color/Red"
-        android:gravity="end"
-        android:textStyle="bold"
-        android:text="Forgot the password ?" />
+        android:background="@drawable/input_text2"
+        android:hint="Repeat Password"
+        android:inputType="textPassword"
+        android:padding="10dp" />
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_regist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/forgotPass"
+        android:layout_below="@+id/PassRegist2"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
         android:backgroundTint="@color/Red"
         android:textStyle="bold"
-        android:text="LOGIN" />
+        android:text="REGISTER" />
 
     <TextView
-        android:id="@+id/CreateAcc"
+        android:id="@+id/HaveAcc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_login"
+        android:layout_below="@id/btn_regist"
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
-        android:gravity="center"
-        android:text="Create New Account"
         android:textColor="@color/black"
-        android:textStyle="bold" />
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Have an Account" />
 
 </RelativeLayout>
