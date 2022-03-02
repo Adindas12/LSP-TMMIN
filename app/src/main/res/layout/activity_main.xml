@@ -66,10 +66,10 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
-        android:textColor="@color/Red"
         android:gravity="end"
-        android:textStyle="bold"
-        android:text="Forgot the password ?" />
+        android:text="Forgot the password ?"
+        android:textColor="@color/Red"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btn_login"

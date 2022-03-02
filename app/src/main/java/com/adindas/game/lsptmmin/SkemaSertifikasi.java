@@ -58,4 +58,11 @@ public class SkemaSertifikasi extends AppCompatActivity {
 
         });
     }
+    @Override
+    public void onBackPressed() {
+
+        Intent intent = new Intent(SkemaSertifikasi.this, MenuUtama.class);
+        finish();
+        startActivity(intent);
+    }
 }

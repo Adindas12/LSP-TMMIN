@@ -19,9 +19,7 @@ public class ProfileLSP extends AppCompatActivity {
         setContentView(R.layout.activity_profile_lsp);
 
         listView = (ListView) findViewById(R.id.list);
-        String[] values = new String[]{"About Us", "Visi", "Misi"
-
-        };
+        String[] values = new String[]{"About Us", "Visi & Misi"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);
@@ -43,5 +41,13 @@ public class ProfileLSP extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        Intent intent = new Intent(ProfileLSP.this, MenuUtama.class);
+        finish();
+        startActivity(intent);
     }
 }

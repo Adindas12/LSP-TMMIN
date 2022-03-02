@@ -58,4 +58,12 @@ public class FlowSertifikasi  extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    public void onBackPressed() {
+
+        Intent intent = new Intent(FlowSertifikasi.this, MenuUtama.class);
+        finish();
+        startActivity(intent);
+    }
 }
